@@ -1,7 +1,7 @@
 package Probeklausur;
 
 public class Landscape {
-    private String[][] colorMatrix = {{"Aquamarine", "MediumAquaMarine", "Aquamarine", "Aquamarine", "MediumAquaMarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "SkyBlue", "SkyBlue", "LightSkyBlue", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "PaleGreen"},
+    private static String[][] colorMatrix = {{"Aquamarine", "MediumAquaMarine", "Aquamarine", "Aquamarine", "MediumAquaMarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "SkyBlue", "SkyBlue", "LightSkyBlue", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "PaleGreen"},
             {"Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "MediumAquaMarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "MediumAquaMarine", "SkyBlue", "SkyBlue", "Aquamarine", "LightSeaGreen", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "MediumAquaMarine", "Aquamarine"},
             {"MediumAquaMarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "SkyBlue", "LightSkyBlue", "MediumTurquoise", "Aquamarine", "Aquamarine", "Aquamarine", "MediumAquaMarine", "Aquamarine"},
             {"Aquamarine", "Aquamarine", "Aquamarine", "MediumAquaMarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine", "SkyBlue", "Aquamarine", "Aquamarine", "MediumTurquoise", "Aquamarine", "Aquamarine", "Aquamarine", "Aquamarine"},
@@ -54,7 +54,7 @@ public class Landscape {
             {"Khaki", "Khaki", "Khaki", "Khaki", "Khaki", "PaleGreen", "LightGreen", "DarkKhaki", "BurlyWood", "DarkSalmon", "LightSalmon", "LightSalmon", "LightSalmon", "LightSalmon", "DarkSalmon", "LightSalmon", "IndianRed", "LightPink", "LightPink", "LightPink", "LightPink", "LightSalmon", "LightSalmon", "LightSalmon", "LightSalmon"},
             {"Khaki", "Khaki", "Khaki", "Khaki", "Khaki", "PaleGreen", "OliveDrab", "YellowGreen", "BurlyWood", "DarkSalmon", "LightSalmon", "LightSalmon", "LightSalmon", "LightSalmon", "LightSalmon", "LightCoral", "LightSalmon", "LightPink", "LightPink", "LightPink", "LightPink", "LightSalmon", "LightSalmon", "LightSalmon", "LightCoral"}};
 
-    public Point findColor(String in){
+    public static Point findColor(String in){
         int x_out = 99;
         int y_out = 99;
         for(int i = 0; i<colorMatrix.length; i++){

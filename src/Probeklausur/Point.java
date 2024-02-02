@@ -16,4 +16,10 @@ public class Point {
     public int getY(){
         return(y);
     }
+
+    @Override
+    public String toString(){
+        String out = "X_Koordinate:  " + getX() + "   Y_Koordinate: " + getY();
+        return(out);
+    }
 }
