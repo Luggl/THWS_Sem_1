@@ -5,13 +5,13 @@ public class L9_Ueb3 {
         Raum raumI21 = new Raum("I.2.1", 85, false);
         Raum raumI215 = new Raum("I.2.15", 45, false);
 
-        System.out.println(raumI21.belegt);
-        System.out.println(raumI215.belegt);
+        System.out.println(raumI21.isBelegt());
+        System.out.println(raumI215.isBelegt());
 
-        raumI21.belegt = true;
+        raumI21.setBelegt();
 
-        System.out.println(raumI21.belegt);
-        System.out.println(raumI215.belegt);
+        System.out.println(raumI21.isBelegt());
+        System.out.println(raumI215.isBelegt());
 
     }
 }

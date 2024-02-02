@@ -18,7 +18,7 @@ public class L7_Ueb4 {
 
         char[] origin = satz.toCharArray();
         int length = origin.length;
-        char[] zwischenspeicher = new char[length * 2];
+        char[] zwischenspeicher = new char[length * 3];
         int count = 0;
 
 
