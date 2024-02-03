@@ -22,7 +22,7 @@ public class Fahrstrecke {
 
 
     }
-    public int gesamteStrecke(){
-
-    }
+//    public int gesamteStrecke(){
+//
+//    }
 }

@@ -16,4 +16,9 @@ public class Kunde {
         }
         return(out);
     }
+
+    public static void main(String[] args) {
+        int[] x = {1, 85, 48, 69};
+        System.out.println(x);
+    }
 }

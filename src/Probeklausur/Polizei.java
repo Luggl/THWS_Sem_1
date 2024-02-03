@@ -22,12 +22,13 @@ public class Polizei {
     }
 
     public static void main(String[] args){
-        double masse = berechneMasse(20, 0.1);
+        double masse = 40;
         System.out.println("Folgende Alkoholmasse: " + masse);
 
         double konz = berechneAlkKonzentration(masse, 70, 'm');
             if(konz >= 0.5){
                 System.out.println("Sie dürfen kein Auto mehr fahren!");
+                System.out.println("Alkoholkonzentration: " + konz);
 
             }else if(konz >= 0.3){
                 System.out.println("Sie sollten kein Auto mehr fahren!");
