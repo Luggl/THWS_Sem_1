@@ -17,6 +17,6 @@ public class Fibonacci {
     }
 
     public static void main(String[] args) {
-        System.out.println(berechneFibonacci(7));
+        System.out.println(berechneFibonacci(50));
     }
 }
