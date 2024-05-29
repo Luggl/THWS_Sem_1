@@ -72,6 +72,18 @@ public class L11_Ueb6 {
             System.out.println(testArray[i]);
         }
         System.out.println(zaehleZeichen(testArray));
+
+        testArray[4][8] =' ';
+        testArray[4][13] =' ';
+        testArray[2][4] =' ';
+
+        for(int i =0; i<testArray.length; i++){
+            System.out.println(testArray[i]);
+        }
+
+        System.out.println(zaehleZeichen(testArray));
+
+
         fuegeEinTextdokument(testArray, einfArray, 4);
         for(int i =0; i<testArray.length; i++) {
             System.out.println(testArray[i]);
