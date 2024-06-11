@@ -14,8 +14,8 @@ public class L7_Ueb1 {
     }
     /**
      * Berechnet den Sinus von der übergebenen Zahl x
-     * @param x reelle Zahl (in RAD), von der der Sinus berrechnet werden soll.
-     * @return Ergebnis des Sinus; übergibt eine reele Zahl zwischen 1 und -1 (beide inkl.)
+     * @param x reelle Zahl (in RAD), von der der Sinus berechnet werden soll.
+     * @return Ergebnis des Sinus; übergibt eine reelle Zahl zwischen 1 und -1 (beide inkl.)
      */
     public static double sinus(double x){
 
