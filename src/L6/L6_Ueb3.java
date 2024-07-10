@@ -18,16 +18,16 @@ public class L6_Ueb3 {
             System.out.printf("\n");
 
         }
-        for(int l = 0; l <= countLines; l=l + 3){
-
-            for(int m = 0; m< countLines - (countLines / 4); m++){
-                System.out.printf(leer);
-            }
-            for(int n = 0; n < (countLines / 4); n++){
-                System.out.printf(x);
-            }
-            System.out.printf("\n");
-        }
+//        for(int l = 0; l <= countLines; l=l + 3){
+//
+//            for(int m = 0; m< countLines - (countLines / 4); m++){
+//                System.out.printf(leer);
+//            }
+//            for(int n = 0; n < (countLines / 4); n++){
+//                System.out.printf(x);
+//            }
+//            System.out.printf("\n");
+//        }
     }
 
     public static void main(String[] args){
