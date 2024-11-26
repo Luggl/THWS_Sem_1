@@ -2,26 +2,21 @@ package L6;
 
 public class L6_Ueb6 {
 
-/*
-   public static int springeInMehrerenSpruengen(int Distanz, int Sprung1, int Sprung2){
+   /*public static int springeInMehrerenSpruengen(int distanz, int sprung1, int sprung2){
 
        int out = 0;
+       boolean checkLeft = true;
 
-       int arrayL1 = Distanz / Sprung1;
-       int arrayL2 = Distanz / Sprung2;
-       int longest = Math.max(arrayL1, arrayL2);
+       if(sprung1 > sprung2){
+           int temp = sprung1;
+           sprung1 = sprung2;
+           sprung2=temp;
+       }
 
+       while(checkLeft){
 
-       int[] test = new int[longest];
-       do{
-          for(int i = 0; i < longest; i++){
+       }
 
-          }
+   }*/
 
-
-
-       }while()
-
-   }
-*/
 }
