@@ -1,4 +1,4 @@
-package de.thws;
+package Tutorium;
 
 public class schleifen {
 

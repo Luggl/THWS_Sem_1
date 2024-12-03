@@ -1,4 +1,4 @@
-package de.thws;
+package Tutorium;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

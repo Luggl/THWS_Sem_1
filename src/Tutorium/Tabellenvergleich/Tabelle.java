@@ -1,4 +1,4 @@
-package de.thws.Tabellenvergleich;
+package Tutorium.Tabellenvergleich;
 
 public class Tabelle {
     boolean[][] werte = new boolean[8][8];
