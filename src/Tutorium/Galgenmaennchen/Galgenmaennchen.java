@@ -22,7 +22,7 @@ public class Galgenmaennchen {
             userTry[i] = '_';
         }
     }
-
+    
     private void checkGuessedWord(){
         for(int i = 0; i<userTry.length; i++){
             if(userTry[i] == '_'){
