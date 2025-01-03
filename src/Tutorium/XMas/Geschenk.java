@@ -24,7 +24,7 @@ public class Geschenk {
 
     public String getAbsender(){
         if(isOpen){
-            return(bezeichnung);
+            return(absender);
         }else{
             return("Verschlossen!");
         }
