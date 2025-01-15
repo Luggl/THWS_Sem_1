@@ -38,7 +38,6 @@ public class SpaceInvaders {
             }
         }
     }
-
     @Override
     public String toString(){
         String out ="";

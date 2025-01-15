@@ -6,7 +6,9 @@ public class SpaceInvaders {
 
     public char[][] spaceinv = new char[5][8];
 
-
+    public SpaceInvaders(){
+        init();
+    }
 
 
     public void init(){
@@ -86,7 +88,6 @@ public class SpaceInvaders {
         Scanner scanner = new Scanner(System.in);
         char input;
         SpaceInvaders x = new SpaceInvaders();
-        x.init();
         x.toString();
         do{
             input = scanner.next().charAt(0);
