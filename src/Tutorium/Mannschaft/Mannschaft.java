@@ -31,4 +31,9 @@ public class Mannschaft {
     public String getName(){
         return(NAME);
     }
+
+    @Override
+    public String toString(){
+        return(NAME +"\n"+gegentore + " Gegentore\n" + tore + " Tore!");
+    }
 }
