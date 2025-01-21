@@ -14,19 +14,32 @@ public class Polynom3 {
     }
 
     public double berechneAnDerStelleX(double x){
-        int anzahl = 3;
-        double out = 0;
-        double erster = 1;
-        double zweiter = 1;
-        double dritter = 1;
-        for(int i = 0; i<anzahl; i++){
-            erster = erster * x;
+        return(a*x*x*x + b*x*x + c*x + d);
+    }
+
+
+    @Override
+    public String toString(){
+        String out = a + "x³";
+        if(b >0){
+            out += " +";
         }
+        out += " " + b + "x²";
+
+        if(c>0){
+            out += " +";
+        }
+        out += " " + c + "x";
+        if(d>0){
+            out += " + ";
+        }
+        out += " " + d;
 
         return(out);
     }
-
-//    public Polynom3 leiteAn(Polynom3 x){
-//
-//    }
+    public static void main(String[] args) {
+        Polynom3 p = new Polynom3(1.5, 4, 1.3, -8);
+        System.out.println(p);
+        System.out.println(p.berechneAnDerStelleX(2));
+    }
 }
