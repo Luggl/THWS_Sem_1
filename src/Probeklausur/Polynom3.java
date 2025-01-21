@@ -41,5 +41,6 @@ public class Polynom3 {
         Polynom3 p = new Polynom3(1.5, 4, 1.3, -8);
         System.out.println(p);
         System.out.println(p.berechneAnDerStelleX(2));
+
     }
 }
