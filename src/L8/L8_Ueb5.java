@@ -1,6 +1,10 @@
 package L8;
 
+import L8.Auto.*;
+
+
 public class L8_Ueb5 {
+
     public static void main(String[] args){
 
         Auto audiR8 = new Auto("Audi", "Daytonagrau Perleffekt", 5204, 620, 580);
@@ -12,6 +16,8 @@ public class L8_Ueb5 {
         System.out.println(audiR8.getHubraum());
         audiR8.setHubraum(-45);
         System.out.println(audiR8.getHubraum());
+
+        System.out.println(Auto.anzahlProd);
 
     }
 
